@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unlock Love 💖</title>
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="lock-screen">
+    <div class="hearts-bg"></div>
+    <div class="sparkle"></div>
+    <div class="lock-container">
+      <div class="lock-icon">🔒</div>
+      <div class="gf-image">
+        <img src="assets/rin1.webp" alt="Meily smiling happily" loading="lazy" />
+      </div>
+      <div class="keypad">
+        <input id="password-input" type="password" placeholder="Enter Password" readonly aria-label="Password input, use keypad buttons to enter" />
+        <div class="buttons">
+          <button aria-label="Number 1">1</button><button aria-label="Number 2">2</button><button aria-label="Number 3">3</button>
+          <button aria-label="Number 4">4</button><button aria-label="Number 5">5</button><button aria-label="Number 6">6</button>
+          <button aria-label="Number 7">7</button><button aria-label="Number 8">8</button><button aria-label="Number 9">9</button>
+          <button aria-label="Number 0">0</button>
+          <button id="clear" aria-label="Clear input">Clear</button>
+          <button id="enter" aria-label="Submit password">Enter</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p id="modal-message"></p>
+      <button id="modal-close" aria-label="Close modal">Close</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
