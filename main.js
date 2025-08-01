@@ -83,7 +83,7 @@ if (alertBtn) {
   });
   alertBtn.addEventListener('touchstart', (e) => {
     e.preventDefault();
-    showModal("Hey Meily 💕! Vuth loves you so much! Happy Anniversary in advance! 🎉");
+    showModal("Ah kom puke khg love you so much! Happy girl day nah baby hope you have a wonderful day baby 🥺💙");
   }, { passive: false });
 }
 
